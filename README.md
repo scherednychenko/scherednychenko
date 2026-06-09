@@ -25,6 +25,8 @@ runs the test, and produces an HTML report.
 Each repo also ships a documented test strategy — SLIs/SLOs, test cadence, environment
 constraints, and how performance testing fits into an Agile team's rituals.
 
+> 💡 **The script is the easy part.** The real value is knowing *what* to test, shaping the load model, reading the results, and turning them into a go/no-go call — judgment a demo can't capture.
+
 ---
 
 ### 🧰 What I work on
