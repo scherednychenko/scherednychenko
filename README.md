@@ -6,10 +6,9 @@
 
 ---
 
-## 🚀 Featured — ShopLite Load Tests: one scenario, five tools
+## 🚀 Featured — ShopLite Load Tests: one scenario, six tools
 
-The same e-commerce journey (**browse → add-to-cart → checkout**), implemented across five
-load-testing tools — each a **one-command Dockerized demo** that spins up a mock backend,
+The same e-commerce journey (**browse → add-to-cart → checkout**), implemented across five load-testing tools (plus a frontend Core Web Vitals one) — each a **one-command Dockerized demo** that spins up a mock backend,
 runs the test, and produces an HTML report.
 
 ![ShopLite — one scenario, five load-testing tools](assets/shoplite-tools-comparison.png)
@@ -21,6 +20,7 @@ runs the test, and produces an HTML report.
 | Locust | Python | Code-level checks | Built-in HTML | [ShopLite-load-tests-locust](https://github.com/scherednychenko/ShopLite-load-tests-locust) |
 | Gatling | Scala DSL | Assertions | HTML charts | [ShopLite-load-tests-gatling-scala](https://github.com/scherednychenko/ShopLite-load-tests-gatling-scala) |
 | Gatling | Java DSL | Assertions | HTML charts | [ShopLite-load-tests-gatling-javaDSL](https://github.com/scherednychenko/ShopLite-load-tests-gatling-javaDSL) |
+| sitespeed.io | JavaScript | Budgets | HTML + Grafana | [ShopLite-ui-perf](https://github.com/scherednychenko/ShopLite-ui-perf) |
 
 Each repo also ships a documented test strategy — SLIs/SLOs, test cadence, environment
 constraints, and how performance testing fits into an Agile team's rituals.
@@ -30,6 +30,6 @@ constraints, and how performance testing fits into an Agile team's rituals.
 ---
 
 ### 🧰 What I work on
-- **Performance & load testing** — JMeter · k6 · Locust · Gatling · Grafana + InfluxDB dashboards
+- **Performance & load testing** — JMeter · k6 · Locust · Gatling · sitespeed.io · Grafana + InfluxDB dashboards
 - **AI quality testing** — LLM evaluations, red teaming, EU AI Act readiness
 - **Test strategy** — SLIs/SLOs, CI integration, reporting that non-engineers can read
