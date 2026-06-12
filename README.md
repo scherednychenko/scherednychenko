@@ -11,7 +11,7 @@
 The same e-commerce journey (**browse → add-to-cart → checkout**), implemented across five load-testing tools (plus a frontend Core Web Vitals one) — each a **one-command Dockerized demo** that spins up a mock backend,
 runs the test, and produces an HTML report.
 
-![ShopLite — one scenario, five load-testing tools](assets/shoplite-tools-comparison.png)
+![ShopLite — one scenario, six tools (five load + Core Web Vitals)](assets/shoplite-tools-comparison.png)
 
 | Tool | Language / DSL | SLOs as | Report | Repo |
 |---|---|---|---|---|
