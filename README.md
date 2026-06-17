@@ -1,6 +1,6 @@
 ### Hi, I'm Sergiy 👋
 
-**Performance Engineering & AI Quality Testing for product teams** — load & stress audits, LLM evaluations, EU AI Act readiness.
+**Performance Engineering & AI Quality Testing for product teams** — load & stress audits, LLM evaluations, EU AI Act readiness, and maintainable test-automation frameworks.
 
 📍 Croatia &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sergiycherednychenko/) &nbsp;·&nbsp; 🌐 [professional-qa-services.com](https://www.professional-qa-services.com/english/)
 
