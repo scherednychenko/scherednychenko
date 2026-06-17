@@ -30,7 +30,26 @@ constraints, and how performance testing fits into an Agile team's rituals.
 
 ---
 
+## 🎭 Featured — Playwright BDD Foundation: readable E2E automation
+
+A small, readable **BDD + Playwright** end-to-end starter in TypeScript. Gherkin features
+sit on top of page objects backed by a typed route catalog, so the suite **reads like product
+behavior** while selectors and waits stay localized. It ships a bundled demo app, so the tests
+are **green the moment you clone it** — no external environment, no flaky shared staging.
+
+![Playwright BDD Foundation — layered E2E architecture](assets/playwright-bdd-foundation.svg)
+
+- **Layered design** — features → steps → page objects → typed route catalog
+- **Network interception** for deterministic failure-path tests · **axe-core** accessibility gating (WCAG 2.1 A/AA)
+- **Tag-based CI slicing**, cross-browser (Chromium/Firefox/WebKit), traces · screenshots · video on failure
+- **CI-ready** — GitHub Actions runs typecheck, lint, format & the suite on every PR; Dependabot keeps deps current
+
+→ [**playwright-bdd-foundation**](https://github.com/scherednychenko/playwright-bdd-foundation)
+
+---
+
 ### 🧰 What I work on
 - **Performance & load testing** — JMeter · k6 · Locust · Gatling · sitespeed.io · Grafana + InfluxDB dashboards
 - **AI quality testing** — LLM evaluations, red teaming, EU AI Act readiness
+- **Test automation** — standing up maintainable E2E frameworks (Playwright + BDD, TypeScript): page-object architecture, network mocking, accessibility checks, CI-gated suites
 - **Test strategy** — SLIs/SLOs, CI integration, reporting that non-engineers can read
